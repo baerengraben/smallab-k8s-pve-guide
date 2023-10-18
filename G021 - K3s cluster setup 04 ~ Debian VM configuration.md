@@ -395,6 +395,7 @@ Fail2Ban is already enabled for SSH connections in the VM, but it needs a more r
 
     ~~~bash
     [sshd]
+    backend=systemd
     enabled = true
     port = 22
     maxretry = 3
